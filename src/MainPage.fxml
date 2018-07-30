@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.PointLight?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Box?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.MeshView?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.Sphere?>
+
+
+<AnchorPane prefHeight="492.0" prefWidth="445.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <PointLight color="CHARTREUSE" layoutY="38.0" lightOn="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="28.0" layoutX="114.0" layoutY="432.0" stroke="BLACK" strokeType="INSIDE" width="236.0">
+         <fill>
+            <RadialGradient centerX="0.5944444444444444" centerY="0.5047619047619047" radius="0.5">
+               <stops>
+                  <Stop color="#1f9bff" />
+                  <Stop color="#1c0cf0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <QuadCurve controlX="-50.0" controlY="-100.0" endX="51.0" endY="16.0" fill="#115fa8" layoutX="97.0" layoutY="366.0" startX="-50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Sphere layoutX="81.0" layoutY="403.0" radius="50" />
+      <MeshView layoutX="244.0" layoutY="316.0" />
+      <Box cache="true" cacheHint="SCALE" cullFace="FRONT" depth="100" height="100" layoutX="100.0" layoutY="432.0" width="100" />
+      <Circle fill="DODGERBLUE" layoutX="89.0" layoutY="453.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle layoutX="114.0" layoutY="396.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="47.0" layoutY="470.0" stroke="BLACK" strokeType="INSIDE">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+   </children>
+</AnchorPane>
